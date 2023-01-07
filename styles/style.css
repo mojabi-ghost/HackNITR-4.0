@@ -1,0 +1,110 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #007bb5;
+}
+#page-title {
+    padding-left: 90px;
+    padding-right: 65px;
+}
+#logo {
+    width: 15%;
+    float: left;
+    border-radius: 50%;
+    padding: 10px 0;
+}
+#hamMenuIcon {
+    width: 75%;
+    float: right;
+}
+#profile-picture {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+#bio-section {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 15px;
+
+}
+th {
+    text-align: left;
+}
+.interests-outter-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#interests-section {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 23px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+.interest {
+    text-align: center;
+    background-color: #FFE6C0;
+    border-radius: 7.5px;
+    padding: 5px 10px;
+}
+
+#social-media-section {
+    padding-right: 15px;
+}
+a {
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa {
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 10px 13px;
+  border-radius: 5px;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+  
+  
