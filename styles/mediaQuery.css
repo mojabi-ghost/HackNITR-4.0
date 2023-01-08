@@ -1,0 +1,61 @@
+@media screen and (max-width:1080px) {
+    #nav-img {
+        min-width: 30vw;
+    }
+
+    .profile {
+        width: 6vh;
+    }
+
+    .intro-feature {
+        flex-direction: column;
+        min-height: 90vh;
+    }
+
+    .details {
+        min-width: 80vw;
+    }
+
+    .illus {
+        max-height: 35vh;
+    }
+
+    .wrap {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .card-container {
+        height: 80vh;
+        flex-flow: row wrap;
+    }
+
+    .cards {
+        min-width: 30vw;
+        min-height: 45vh;
+        margin: 2vh 2vw;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .blur{
+        max-height: 62vh;
+    }
+    .text-wrapper h1{
+        font-size: 1.6rem;
+    }
+    #sign-up-btn a{
+        font-size: 1rem;
+    }
+
+    .intro-feature {
+        min-height: 100vh;
+    }
+
+    .cards {
+        min-width: 45vw;
+        margin: 1vh 1vw;
+    }
+}

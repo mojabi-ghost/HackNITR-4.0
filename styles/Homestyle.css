@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+@import url(mediaQuery.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* navbar*/
+.navbar {
+    background-color: #3E454B;
+    /* background-color: #ebecfc; */
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo */
+#img-container {
+    width: 14vw;
+    height: 13vh;
+}
+
+#nav-img {
+    width: 18vw;
+    height: 21vh;
+    position: relative;
+    top: -4vh;
+    left: -2vw;
+    cursor: pointer;
+}
+
+/* profile */
+.profile {
+    min-width: 4vw;
+    height: 8vh;
+    background-color: #5a93bb;
+    margin: 2.5vh 2.5vw;
+    border-radius: 50%;
+    background: url(../images/user.png) no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+/* introduction section */
+.intro-section {
+    position: relative;
+    width: 100%;
+    height: 87vh;
+    background: url('../images/bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.blur,
+.text-wrapper {
+    position: absolute;
+    left: 20vw;
+    top: 10vh;
+    width: 60vw;
+    height: 67vh;
+}
+
+.blur {
+    background-color: #302f35;
+    opacity: 0.6;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 4vh 2vw;
+    color: white;
+    opacity: 1;
+    font-weight: 400;
+    text-align: center;
+}
+
+#sign-up-btn {
+    margin: 8vh 3vw;
+    padding: 3vh 6vw;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #dcddf1;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+#sign-up-btn a {
+    color: black;
+}
+
+#sign-up-btn:hover {
+    background-color: #e9edf5;
+}
+
+/* Feature section  */
+.intro-feature {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper {
+    position: relative;
+    width: 48vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illus {
+    position: absolute;
+    width: 38vw;
+    height: 60vh;
+}
+
+.details {
+    max-width: 38vw;
+    margin: 2vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.btn {
+    margin: 6vh;
+    padding: 2.2vh 4vw;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    background-color: #679bc1;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: #ebecfc;
+}
+
+/* call to action section */
+.cta {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebecfc;
+    text-align: center;
+}
+
+.cta .btn {
+    margin: 1vh;
+    background-color: #ee7486;
+}
+
+/* about us */
+.aboutUs {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs h2 {
+    padding: 2vh;
+    font-weight: 600;
+}
+
+.card-container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards {
+    width: 18vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top right, #679bc1, #ee7486);
+    border-radius: 20px;
+}
+
+.cards>* {
+    padding: 2vh 1vw;
+    color: white;
+    text-align: center;
+}
+
+.cards:hover {
+    transform: scale(1.2);
+}
+
+/* Utility Classes */
+.text-deco {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 6vh 3vw;
+}
+
+.para {
+    color: #4c535a;
+    font-size: 1rem;
+}
