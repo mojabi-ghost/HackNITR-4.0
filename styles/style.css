@@ -1,27 +1,44 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+/* Header */
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
-    background-color: #007bb5;
+    background-color: #3E454B; 
+    height: 125px;
+    width: 100vw;
 }
 #page-title {
     padding-left: 90px;
     padding-right: 65px;
+    color: white;
 }
 #logo {
-    width: 15%;
-    float: left;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     padding: 10px 0;
+    margin-left: 15px;
 }
-#hamMenuIcon {
-    width: 75%;
-    float: right;
+#logo:hover {
+    cursor: pointer;
 }
+nav {
+    margin-right: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-text {
+    color: white;
+    margin-right: 20px;
+}
+#user-icon {
+    width: 75px;
+}
+/* Main - Bio Section */
 #profile-picture {
     border-style: solid;
     border-width: 1px;
@@ -31,6 +48,9 @@ header {
     align-items: center;
     margin-top: 20px;
     width: 100%;
+    box-shadow: 5px 3px 5px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 5px 3px 5px 1px rgba(0,0,0,0.54);
+    -moz-box-shadow: 5px 3px 5px 1px rgba(0,0,0,0.54);
 }
 #bio-section {
     border-style: solid;
@@ -38,11 +58,14 @@ header {
     border-radius: 10px;
     margin-top: 10px;
     padding-left: 15px;
-
+    box-shadow: 5px 3px 5px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 5px 3px 5px 1px rgba(0,0,0,0.54);
+    -moz-box-shadow: 5px 3px 5px 1px rgba(0,0,0,0.54);
 }
 th {
     text-align: left;
 }
+/* Main - Interests Section */
 .interests-outter-wrapper {
     display: flex;
     justify-content: center;
@@ -58,6 +81,9 @@ th {
     padding-left: 15px;
     padding-bottom: 20px;
     padding-right: 15px;
+    box-shadow: 5px 3px 5px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 5px 3px 5px 1px rgba(0,0,0,0.54);
+    -moz-box-shadow: 5px 3px 5px 1px rgba(0,0,0,0.54);
 }
 .interest {
     text-align: center;
@@ -65,7 +91,6 @@ th {
     border-radius: 7.5px;
     padding: 5px 10px;
 }
-
 #social-media-section {
     padding-right: 15px;
 }
@@ -81,6 +106,9 @@ a {
     border-width: 1px;
     border-radius: 10px;
     border-color: black;
+    box-shadow: 5px 3px 5px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 5px 3px 5px 1px rgba(0,0,0,0.54);
+    -moz-box-shadow: 5px 3px 5px 1px rgba(0,0,0,0.54);
 }
 .fa-facebook {
   background: #3B5998;
@@ -105,6 +133,24 @@ a {
     color: white;
     padding: 10px 14px;
     border-radius: 5px;
+}
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#btn-message {
+    border-style: none;
+    border-radius: 50px;
+    background-color: #007bb5;
+    padding: 25px 120px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+}
+#btn-message:hover {
+    cursor: pointer;
 }
 @media (min-width: 750px) {
     #page-title {
